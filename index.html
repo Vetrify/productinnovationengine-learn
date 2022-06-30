@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="mt-11 grid items-start grid-cols-1 gap-y-16 gap-x-6 sm:mt-16 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
+  {% for post in site.posts %}
+  <div class="flex flex-col-reverse">
+    <div class="mt-6">
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      <h3 class="text-sm font-medium text-gray-900"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <p class="mt-2 text-sm text-gray-500">Today, Next, and Someday cards allow you to defer your dreams into the future.</p>
+    </div>
+    <div class="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden">
+      <img src="https://tailwindui.com/img/ecommerce-images/product-feature-08-detail-01.jpg" alt="Green cardstock box containing white, beige, and brown cards." class="object-center object-cover">
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+
+
+<div class="">
+
+    <h1 class="page-heading">Posts</h1>
+  
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+  
+    <p class="rss-subscribe">subscribe 
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+ 
+
+
+</div>
