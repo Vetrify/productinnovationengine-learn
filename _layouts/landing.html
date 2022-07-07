@@ -1,8 +1,20 @@
 ---
 ---
 
-{% include header_landing.html %}
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+  {% include head.html %}
+  <body>
+    <div x-data="{open: false}">
 
-{{ content }}
+      {% include header_landing.html %} 
 
-{% include footer.html %}
+      {{ content }} 
+      
+      {% include footer.html %}
+
+      {% include scripts.html %}
+      
+    </div>
+  </body>
+</html>

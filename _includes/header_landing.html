@@ -1,73 +1,55 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Product Innovation Engine</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
-  </head>
-  <header class="bg-indigo-600">
-    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-      <div
-        class="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none"
-      >
-        <div class="flex items-center">
-          <a href="#">
-            <span class="sr-only">Workflow</span>
-            <img
+<header class="bg-indigo-600">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
+    <div
+      class="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none"
+    >
+      <div class="flex items-center">
+        <a href="#">
+          <span class="sr-only">Product Innovation Engine</span>
+          <svg
+            class="h-12 w-auto fill-white"
+            version="1.1"
+            viewBox="0 0 94.3 81.11"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g transform="translate(-5.3011 -4.546)">
+              <path
+                d="m73.823 73.094c7.4612-7.4612 11.589-17.41 11.589-27.966v-1.8521h-26.988v1.8521c0 6.9321-5.6356 12.568-12.568 12.568s-12.568-5.6356-12.568-12.568 5.6356-12.568 12.568-12.568c1.3229 0 2.6194 0.21167 3.8629 0.60854l15.928-22.304c-6.006-3.4925-12.779-5.3181-19.791-5.3181-10.557 0-20.505 4.1275-27.966 11.589s-11.589 17.41-11.589 27.966 4.1275 20.505 11.589 27.966 17.41 11.589 27.966 11.589c10.557 0 20.479-4.101 27.966-11.562zm24.778-25.94-26.922-37.65-26.952 37.65z"
+                stroke-width=".26458"
+              />
+            </g>
+          </svg>
+          <!-- <img
               class="h-10 w-auto"
               src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white"
               alt=""
-            />
-          </a>
-          <div class="hidden ml-10 space-x-8 lg:block">
-            <a
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Solutions
-            </a>
-
-            <a
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Pricing
-            </a>
-
-            <a
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Docs
-            </a>
-
-            <a
-              href="#"
-              class="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Company
-            </a>
-          </div>
-        </div>
-        <div class="ml-10 space-x-4">
-          <a
-            href="#"
-            class="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
-            >{{page.ctaText}}</a
-          >
-        </div>
-      </div>
-      <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
-        <a
-          href="#"
-          class="text-base font-medium text-white hover:text-indigo-50"
-        >
-          Solutions
+            /> -->
         </a>
+        <div class="hidden ml-10 space-x-8 lg:block">
+          {% for n in page.nav %}
+
+          <a
+            href="{{n.url}}"
+            class="text-base font-medium text-white hover:text-indigo-50"
+          >
+            {{n.title}}
+          </a>
+          {% endfor %}
+        </div>
       </div>
-    </nav>
-  </header>
-  <body></body>
-</html>
+      <div class="ml-10 space-x-4">
+        <a
+          x-on:click="open = true"
+          href="#"
+          class="inline-block bg-white py-2 px-4 border border-transparent rounded-md text-base font-medium text-indigo-600 hover:bg-indigo-50"
+          >{{page.ctaButtonText}}</a
+        >
+      </div>
+    </div>
+    <div class="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+      <a href="#" class="text-base font-medium text-white hover:text-indigo-50">
+        Solutions
+      </a>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,136 @@
+---
+layout: landing
+title: Get clear. Boost your impact. Build better product.
+ctaButtonText: "Innovate Now!"
+nav:
+  - title: Solutions
+    url: "#solutions"
+  - title: Pricing
+    url: "#pricing"
+  - title: How it Works
+    url: "#how"
+  - title: FAQ
+    url: "#faq"
+heroTitle: >
+  Get clear.  
+  <span class="block text-indigo-600 xl:inline">Boost your impact.</span>
+  Build better product.
+experimentId: 893c1d08-47cb-470f-8dc7-08aff5ec3b74
+permalink: get-clear-boost-your-impact-build-better-product/893c1d0847cb470f8dc708aff5ec3b74/
+date:   2022-07-01 12:00:00
+categories: opportunity
+description: >
+  The <b>Product Innovation Engine</b> helps you get clear by helping you ask the hard questions about your customer, product, and market assumptions.  
+  <br/><br/>
+  Then... you can focus in on the top 20% driving 80% of your success.
+ctaText:
+  - text: Ready to dive in?
+  - text: Start innovating today.
+heroImage: asdf
+heroText: "asdf"
+heroSubtitle: ""
+heroBullets:
+  - title: asdf
+    text: asdfasdf
+  - title: asdfsadf
+    text: mores
+benefitPrimary: "Build Smarter"
+benefitTitle: "Innovate Faster With Our Unique Approach."
+benefitText: >
+  We help you focus on the 20% that drives 80% of your value. 
+  <br/><br/>
+  Then, we help you surface actionable insights, product improvements, or pivot points.
+benefits:
+  - icon_file: arrow-circle-left.svg
+    title: "Reduce risk and uncertainty (a part of startup life)."
+    text: > 
+      Product Innovation Engine gives you the tools to mitigate your riskiest assumptions. <br/><br/>
+      Get more clarity on what you can and cannot control in order to make better decisions.
+  - icon_file: cube.svg
+    title: "Develop a product strategy that drives results."
+    text: >
+      Avoid wasting years developing a product or launching features without success. <br/><br/>
+      The Product Innovation Engine will help you get the science right and turn your product idea into the powerhouse it deserves to be.
+  - icon_file: cursor-click.svg
+    title: "Optimize your focus. Rocket ahead. Fast."
+    text: Clearly track your progress.  Maximize your agility. Stay on top of what matters. <br/><br/>With the Product Innovation Engine, you stay organized and see your progress towards success.
+socialProofTitle: Leverage techniques used by some of the the world's most successful startups
+socialProofText: Make better decisions.  Find better business models.  Improve customer value, fit, and retention. <br /><br /> These are just some of the ways the <strong>Product Innovation Engine</strong> helps you to build a successful business.
+socialProofItems: 
+  - img: asdf
+pricingTitle: "Simple pricing. No commitment."
+pricingText: "Everything you need, nothing you don't. Pick a plan that best suits your business."
+pricingUnit: "USD / mo"
+prices:
+  - title: Starter
+    amount: 5
+    items:
+      - text: basic inv
+      - text: asdf
+      - text: 12345f
+  - title: Scale
+    primary: true
+    amount: 19
+    items:
+      - text: basic inv
+      - text: asdf
+      - text: 12345f
+  - title: Growth
+    amount: 199
+    items:
+      - text: basic inv
+      - text: asdf
+      - text: 12345f
+howTitle: "How it works."
+hows:
+  - icon: asdf
+    title: "Step 1. Set Your Risk Threshold and Discover Your Assumptions."
+    text: "s1"
+  - icon: asdf
+    title: "Step 2. Rank And Prioritize Your Risks."
+    text: "how 2 desc"
+  - icon: asdf
+    title: "Step 3. Mitigate Your Risks."
+    text: "how 3 desc"
+  - icon: asdf
+    title: "Step 4. Repeat Until You Can Smell Success."
+    text: "how 4 desc"
+faqTitle: Frequently asked questions
+faqText: Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec. Urna, sed a lectus elementum blandit et.
+faqs:
+  - q: "What is the product innovation engine?"
+    a: "asdf"
+  - q: "What are the benefits of using the product innovation engine?"
+    a: "asdf"
+  - q: "How does the product innovation engine help you reduce risk?"
+    a: "asdf"
+  - q: "How does the product innovation engine help you achieve success?"
+    a: "asdf"
+  - q: " What are the limitations of the product innovation engine?"
+    a: "asdfasd"
+  - q: "How can I use the Product Innovation Engine to develop a product strategy that drives results?"
+    a: "asdf"
+---
+
+
+
+{% include hero/text.html %}
+
+<a id="solutions" />
+{% include benefits/grid.html %}
+
+{% include social_proof/split_right_grid.html %}
+
+<a id="pricing" />
+{% include pricing/panel.html %}
+{% include  pricing/dark.html %}
+
+<a id="how" />
+{% include how_it_works/icon_grid.html %}
+
+{% include cta/simple_justified_light.html %}
+
+<a id="faq" />
+{% include faq/two_col_description_dark.html %}
+
+
