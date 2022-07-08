@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Get clear. Boost your impact. Build better product.
-ctaButtonText: "Innovate Now!"
+ctaButtonText: "Start Today!"
 nav:
   - title: Solutions
     url: "#solutions"
@@ -22,7 +22,7 @@ categories: opportunity
 description: >
   The <b>Product Innovation Engine</b> helps you get clear by helping you ask the hard questions about your customer, product, and market assumptions.  
   <br/><br/>
-  Then... you can focus in on the top 20% driving 80% of your success.
+  So you focus in on the top 20% of effort driving 80% of your success.
 ctaText:
   - text: Ready to dive in?
   - text: Start innovating today.
@@ -39,77 +39,199 @@ benefitTitle: "Innovate Faster With Our Unique Approach."
 benefitText: >
   We help you focus on the 20% that drives 80% of your value. 
   <br/><br/>
-  Then, we help you surface actionable insights, product improvements, or pivot points.
+  Then, we help you surface actionable insights, product improvements, and pivot points.
 benefits:
   - icon_file: arrow-circle-left.svg
-    title: "Reduce risk and uncertainty (a part of startup life)."
+    title: "Reduce risk and uncertainty (a part of product development life)."
     text: > 
       Product Innovation Engine gives you the tools to mitigate your riskiest assumptions. <br/><br/>
       Get more clarity on what you can and cannot control in order to make better decisions.
-  - icon_file: cube.svg
+  - icon_file: cloud-upload.svg
     title: "Develop a product strategy that drives results."
     text: >
       Avoid wasting years developing a product or launching features without success. <br/><br/>
       The Product Innovation Engine will help you get the science right and turn your product idea into the powerhouse it deserves to be.
   - icon_file: cursor-click.svg
     title: "Optimize your focus. Rocket ahead. Fast."
-    text: Clearly track your progress.  Maximize your agility. Stay on top of what matters. <br/><br/>With the Product Innovation Engine, you stay organized and see your progress towards success.
-socialProofTitle: Leverage techniques used by some of the the world's most successful startups
-socialProofText: Make better decisions.  Find better business models.  Improve customer value, fit, and retention. <br /><br /> These are just some of the ways the <strong>Product Innovation Engine</strong> helps you to build a successful business.
+    text: Clearly track your progress.  Maximize your agility. Stay on top of what matters. <br/><br/>With the Product Innovation Engine, you stay organized and track your progress towards success.
+socialProofTitle: Leverage techniques used by the world's most successful startups
+socialProofText: Make better decisions.  Find better business models.  Improve customer value, fit, and retention. <br /><br /> These are just some of the ways the <strong>Product Innovation Engine</strong> helps you build and grow a successful business.
 socialProofItems: 
   - img: asdf
 pricingTitle: "Simple pricing. No commitment."
-pricingText: "Everything you need, nothing you don't. Pick a plan that best suits your business."
+pricingText: "Everything you need, nothing you don't. Pick a plan that best suits your needs."
 pricingUnit: "USD / mo"
 prices:
-  - title: Starter
-    amount: 5
+  - title: Startup
+    amount: 7
     items:
-      - text: basic inv
-      - text: asdf
-      - text: 12345f
-  - title: Scale
+      - text: One Project
+      - text: Basic Product Innovation
+      - text: One Manager
+      - text: Three Contributors (add more for $5/mo/ea)
+  - title: Team
     primary: true
-    amount: 19
+    amount: 23
     items:
-      - text: basic inv
-      - text: asdf
-      - text: 12345f
-  - title: Growth
-    amount: 199
+      - text: 40 Projects
+      - text: Advanced Product Innovation
+      - text: Basic Feature Innovation
+      - text: Two Managers (add more for $7/mo/ea)
+      - text: Ten Contributors (add more for $3/mo/ea)
+  - title: Enterprise
+    amount: 97
     items:
-      - text: basic inv
-      - text: asdf
-      - text: 12345f
+      - text: Unlimited Projects
+      - text: Advanced Product Innovation
+      - text: Advanced Feature Innovation      
+      - text: Custom Innovation Project Templates
+      - text: Ten Managers (add more for $5/mo/ea)
+      - text: Unlimited Contributors
 howTitle: "How it works."
 hows:
-  - icon: asdf
+  - icon_file: book-open.svg
     title: "Step 1. Set Your Risk Threshold and Discover Your Assumptions."
-    text: "s1"
-  - icon: asdf
-    title: "Step 2. Rank And Prioritize Your Risks."
-    text: "how 2 desc"
-  - icon: asdf
-    title: "Step 3. Mitigate Your Risks."
-    text: "how 3 desc"
-  - icon: asdf
-    title: "Step 4. Repeat Until You Can Smell Success."
-    text: "how 4 desc"
+    text: "Set the limit to how much risk you can take.  Once you draw the line, your team can surface the riskiest assumptions needing attention."
+  - icon_file: beaker.svg
+    title: "Step 2. Rank And Prioritize."
+    text: "Rank your assumptions with your team by how likely they will impact your success. Find where you need to innovate. Fast."
+  - icon_file: chip.svg
+    title: "Step 3. Rapid Innovation."
+    text: "Discover innovative solutions as early as possible. Turn your biggest risks into opportunities. Figure out the easiest, cheapest, and fastest way forward. And validate your innovations without spending a ton of money or time."
+  - icon_file: refresh.svg
+    title: "Step 4. Repeat (Until You Smell Success)."
+    text: "Keep innovating.  Drive down your biggest risks until your product strategy is ready to execute.  Then build out your MVP with confidence. Find customers. And succeed."
 faqTitle: Frequently asked questions
-faqText: Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec. Urna, sed a lectus elementum blandit et.
+faqText: 
 faqs:
-  - q: "What is the product innovation engine?"
-    a: "asdf"
+  - q: "What is the Product Innovation Engine?"
+    a: >
+      The <strong>Product Innovation Engine</strong> is a professional product management tool focused on guiding and tracking your Risk Assumptions Testing (RAT) programs. 
+      <br/><br/>
+      We ensure you find and stay on the fastest path to reaching your objectives. 
+      <br/><br/>
+      You get there fast by breaking away from the broken 'build-test-learn' cycle.  Instead you learn and test early while it is cheapest and easiest, BEFORE you build.  This maximizes your innovation velocity.
   - q: "What are the benefits of using the product innovation engine?"
-    a: "asdf"
+    a: >
+      <ul>
+      <li>Increase productivity. You stay focused on the fastest way to fail with the least risk. This productivity boost means you can relax and see more success in the long run.<br/><br/></li>
+
+      <li>Boost focus. You can concentrate on the most important things. You can avoid wasting time or energy on things that don't matter.<br/><br/></li>
+
+      <li>Cut surprises. Ensure on-time delivery. This increased awareness means you can expect more success. You can focus on your personal life without being on call 24/7, waiting for the next disaster.<br/><br/></li>
+
+      <li>Ensure business viability. Cover every move with a risk-based approach. This viability means you have prepared for contingencies. You can set yourself up for success instead of failure.<br/><br/></li>
+
+      <li>End uncertainty. You will know what to do. This clarity means you can make decisions faster with less fear of making the wrong choices.<br/><br/></li>
+
+      <li>Cut risks. This means you can focus on developing your business. And stop dealing with the fallout from being under-prepared.<br/><br/></li>
+
+      <li>Cut Fires. You'll have fewer emergencies. You'll handle whatever comes up better—saving you time, money, stress, and worry!<br/><br/></li>
+
+      <li>Increase confidence. Ensure you provide value to your customers. Providing demonstrable value means you will reduce customer churn.  You'll be able to charge a fair price and give people what they need.<br/><br/></li>
+
+      <li>Cut failure. By identifying problematic areas early, you can take necessary measures. You avoid the need for reactive measures, costing you time and money. Not to mention reducing headaches and customer dissatisfaction.<br/><br/></li>
+
+      <li>End Guesswork. Build a product innovation roadmap based on real-world data. This roadmap will bring peace and harmony into your life.  You'll know you have taken care of the riskiest aspects of your business.  And, you'll be ready for whatever comes next!<br/><br/></li>
+
+      <li>Make informed decisions. You can explain your remaining risk.  You'll have information from test outcomes based on risk assessments. This means your business will be more successful, and you will be happier!<br/><br/></li>
+
+      <li>Identify problems early. Discover the necessary measures to make your product successful. Avoid projects with no chance of success. This intelligence means you can avoid unnecessary headaches and costly mistakes. Which will help you sleep better at night knowing your business is on the right track.<br/><br/></li>
+
+      <li>Understand your customers.   Find out what makes your customers tick. Find out what they need and want. And have proof. This insight will help you succeed more in your career and life!<br/><br/></li>
+
+      <li>Build a product innovation roadmap based on data. This focus will bring balance into your life. You will feel at peace knowing you have covered all aspects of your business. You'll be ready for whatever comes next!
+      </li>
+      </ul>
   - q: "How does the product innovation engine help you reduce risk?"
-    a: "asdf"
-  - q: "How does the product innovation engine help you achieve success?"
-    a: "asdf"
+    a: >
+      You reduce your risk because you put risk front and center of your entire innovation strategy.  You avoid making the typical mistakes from misinformation or confirmation bias. You can be more confident about your decisions and actions.
+  - q: How does the product innovation engine help you make better decisions?
+    a: >
+      The product innovation engine helps you to make better decisions because you are making decisions based on data. <br/><br/>
+      You avoid guessing or making moved based on incorrect assumptions. <br/><br/>
+      
+      Your confidence is much higher when you have evidence to supports your decision.  <br/><br/>
+      
+      We all know there are no guarantees.  But if your decision is wrong, then at least you have evidence to support that it was the best possible decision at the time. <br/><br/>
+      And if your decision is right… you had the evidence to back it!
+  - q: What will happen if I don't use the product innovation engine?
+    a: >
+      You will be guessing, hoping, and praying for success without any real knowledge to back up your assumptions. <br/><br/>
+      
+      This means that you will be more anxious and stressed out every day... and especially when things do not go as planned. <br/><br/>
+      
+      You will spend weeks in meetings trying to convince others of what needs to happen without any supporting data behind it …which means they may not believe in you! <br/><br/>
+      
+      You will spend more time defending your actions and ideas because no one else has any supporting data either!<br/><br/>
+      
+      When everyone is just guessing then they don't want to get blamed for a mistake…so they avoid taking risks! (Analysis Paralysis) And witout risk, there's no reward.<br/><br/>
+      
+      This lack of action leads to low morale which leads to high turnover rates! It's a vicious cycle that comes from a lack of information and knowledge!<br/><br/>
+
+      Your career success depends on how well-informed and knowledgeable you are about the industry trends & best practices, successful strategies for success, and the specific details of your job role.<br/><br/>
+
+      If you don't have the right information... or if you don't know what to do with that information, then it's a waste of time to even try to drive product innovation! You can only hope that some other people in your organization are smart enough and motivated enough to address the risks and solve problems quickly and effectively.
+  - q: "How does the product innovation engine help me achieve success?"
+    a: >
+      The product innovation engine provides a collaborative, participative, knowledge-sharing process that helps you to take ideas from just being a good idea to becoming a marketable product. It provides the information and guidance that you need to become an innovative leader in your field.<br/><br/>
+
+      The innovation engine will help you develop your skills for:
+      <ul><li> Developing and testing new ideas</li>
+      <li> Building a knowledge bank for people who are working on similar projects.</li>
+      <li>Working with other members of your organization to co-create ideas.</li></ul><br/><br/>
+
+      The product innovation engine lays out a process that is driven by the needs of the customer and is an opportunity for you to become a leader for your organization.<br/><br/> 
+
+      The Product Innovation Engine helps you get all the information you need to become an effective innovator!
   - q: " What are the limitations of the product innovation engine?"
-    a: "asdfasd"
+    a: >
+      The Product Innovation Engine focuses solely on the early innovation process (which is the most important time to innovate).  But, it does not help you execute your product strategy.<br/><br/>
+
+
+
+      The Product Innovation Engine does not help you with building customer personas, though it can help you assess your assumptions and get better information.<br/><br/>
+
+
+
+      The product Innovation Engine does not go beyond simple surveys used to test assumptions.  The challenge you'll have here is that what people say and what they do are often not the same thing.  The Product Innovation Engine helps you figure out what you need to test in order to verify or disprove your assumptions but it does not help you build out or execute the tests (yet).<br/><br/>
+
+
+
+      The Product Innovation Engine does not help you with building an organizational structure to support innovation.<br/><br/> 
+
+
+
+      The Product Innovation Engine does not help you with building up or managing a team.<br/><br/>
+
+      The Product Innovation Engine does not help you organize your business requirements.
   - q: "How can I use the Product Innovation Engine to develop a product strategy that drives results?"
-    a: "asdf"
+    a: >
+      The Product Innovation Engine helps you to develop a product strategy that drives results. The process will lay out the steps you need to take to develop your product ideas and translate them into marketable products.<br/><br/>
+
+
+
+      The Product Innovation Engine will help you set goals and define your objectives. It will help you develop a product strategy that:<br/><br/>
+
+
+
+      • Is focused on customer needs and value-added features.<br/><br/>
+
+
+
+      • Is based on an understanding of what the competition is doing, but not exactly like them.<br/><br/>
+
+      •  Is focused on learning fast and addressing risks before they become problems.<br/><br/>
+
+
+
+      The Product Innovation Engine helps you get all the information you need to become an effective innovator!<br/><br/>
+
+
+
+
+
+      
 ---
 
 
@@ -133,4 +255,4 @@ faqs:
 <a id="faq" />
 {% include faq/two_col_description_dark.html %}
 
-
+{% include cta/simple_justified_light.html %}
